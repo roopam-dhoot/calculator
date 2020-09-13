@@ -8,11 +8,11 @@ function clearScreen()
 {
 	document.calculator.resultbox.value="";
 }
-//calculate resule using eval()
+
 function calculateResult()
 {
 	try {
-		//eval(string) will work for */+- (https://www.w3schools.com/jsref/jsref_eval.asp)
+		
 		var input = eval(document.calculator.resultbox.value);
 
 		document.calculator.resultbox.value=input;
@@ -22,8 +22,7 @@ function calculateResult()
 	}
 }
 
-//sqrt and ^2 will immediately display result
-//once button is pressed
+
 function doSqrt() 
 {
 	var input2 = document.calculator.resultbox.value;
