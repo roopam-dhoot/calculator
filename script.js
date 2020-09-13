@@ -1,9 +1,9 @@
-//button's ID is what determines what was clicked
+
 function fun(id) 
 {
 	document.calculator.resultbox.value+=id;
 }
-//nothing in the textbox
+
 function clearScreen()
 {
 	document.calculator.resultbox.value="";
