@@ -1,0 +1,55 @@
+body {
+	background: whitesmoke;
+	margin-top: 10rem;
+}
+
+div {
+	margin: auto;
+	width: 50%;
+	padding: 5px;
+}
+
+#resultbox {
+	display: inline-block;
+	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	text-align: center;
+
+}
+
+#r1 {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+}
+
+#r2 {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+}
+
+#r3 {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+}
+
+#r4 {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+}
+
+#r5 {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+}
+
+button {
+	height: 50px;
+	width: 75px;
+}

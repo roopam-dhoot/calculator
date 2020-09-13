@@ -1,0 +1,48 @@
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../CSS/main.css">
+  	<script type="text/javascript" src="script.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+  	<div id="resultbox" class="row">
+      <form name="calculator">
+        <input type="text" class="screen text-right" name="resultbox" readonly>
+      </form>
+    </div>
+  	<div id="r1" class="row" align="center">
+      <button id="clear" type="button" class="btn btn-outline-danger" onclick="clearScreen()">clear</button>
+      <button id="^2" type="button" class="btn btn-outline-info" onclick="doPow()">x²</button>
+      <button id="sqrt" type="button" class="btn btn-outline-info" onclick="doSqrt()">√</button>
+      <button id="/" type="button" class="btn btn-outline-info" onclick="fun(this.id)">÷</button>
+    </div>
+    <div id="r2" class="row" align="center">
+      <button id="7" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">7</button>
+      <button id="8" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">8</button>
+      <button id="9" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">9</button>
+      <button id="*" type="button" class="btn btn-outline-info" onclick="fun(this.id)">x</button>
+    </div>
+    <div id="r3" class="row" align="center">
+      <button id="4" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">4</button>
+      <button id="5" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">5</button>
+      <button id="6" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">6</button>
+      <button id="-" type="button" class="btn btn-outline-info" onclick="fun(this.id)">-</button>
+    </div>
+    <div id="r4" class="row" align="center">
+      <button id="1" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">1</button>
+      <button id="2" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">2</button>
+      <button id="3" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">3</button>
+      <button id="+" type="button" class="btn btn-outline-info" onclick="fun(this.id)">+</button>
+    </div>
+    <div id="r5" class="row" align="center">
+      <button id="0" type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">0</button>
+      <button id="." type="button" class="btn btn-outline-secondary" onclick="fun(this.id)">.</button>
+      <button id="=" type="button" class="btn btn-outline-success" onclick="calculateResult()">=</button>
+    </div>
+  </div>
+</div>
+</body>
